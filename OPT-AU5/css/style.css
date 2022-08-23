@@ -1,0 +1,592 @@
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+html, body {height: 100%;}
+
+body {
+	overflow-x: hidden;
+	background: #fff;
+	font-size: 100%;
+	font-family: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a, a:active , a:focus {
+	outline: 0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: inherit;
+	outline: 0;
+	text-decoration: none;
+}
+
+* {
+	outline: none;
+}
+
+img {
+	max-width: 200px;
+	vertical-align: middle;
+}
+
+img.footer{
+	    max-width: 101px;
+}
+.noscroll {
+	overflow: hidden;
+}
+
+.vertical-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+/* Header Begin */
+#header {
+	position: relative;
+	height: 65px;
+	background: linear-gradient(to right, #000B18, #00172D, #00264D, #02386E);
+}
+
+.logo {
+	float: left;
+	line-height: 70px;
+}
+
+.menu {
+	float: right;
+	padding-top: 28px;
+}
+
+.menu a {
+	position: relative;
+	float: left;
+	margin-right: 50px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	transition: color 0.3s;
+}
+
+.menu a:last-child {
+	margin-right: 0;
+}
+
+.menu a:hover,
+.menu a.active {
+	color: #f8a113;
+	font-size: 14px;
+}
+.menu a.open {
+	font-size: 18px;
+}
+.btn_menu {
+	float: right;
+	display: none;
+	width: 30px;
+	height: 30px;
+	margin-top: 22px;
+	background: url(../images/icon/icon-menu2.png) no-repeat right center;
+	background-size: 22px;
+	border: none;
+}
+/* Header End */
+
+/* CoverBlock Begin */
+.cover_block {
+	position: relative;
+	height: 288px;
+	background-color: #dadada;
+	background-repeat: no-repeat;
+	background-position: initial;
+	background-size: cover;
+}
+
+.cover_block:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	background: rgba(0,0,0,0.45);
+}
+
+.cover_block .container,
+.cover_block .row,
+.cover_block .col-md-6 {
+	height: 100%;
+	z-index: 200;
+}
+
+.cover_block h1 {
+	margin: 0;
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 1;
+	color: #fff;
+}
+
+.subscribe span {
+	display: block;
+	margin: 45px 0 15px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+	color: #fff;
+}
+
+.subscribe input[type="text"] {
+	float: left;
+	display: block;
+	width: 255px;
+	height: 50px;
+	padding: 0 15px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+	color: #000;
+	background: #fff;
+	border: 0;
+	border-radius: 5px;
+}
+
+.subscribe input[type="text"]::-webkit-input-placeholder {color: #000;}
+.subscribe input[type="text"]::-moz-placeholder {color: #000;}
+
+.subscribe input[type="submit"] {
+	float: left;
+	display: block;
+	min-width: 120px;
+	height: 50px;
+	margin-left: 5px;
+	padding: 0 5px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+	color: #fff;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	transition: background 0.3s linear, border 400ms ease;
+}
+
+.subscribe input[type="submit"]:hover {
+	background: #111242;
+	border-color: #111242;
+}
+
+.trusted {
+	float: right;
+	line-height: 288px;
+}
+/* CoverBlock End */
+
+/* Wrapper Begin */
+.wrapper {
+	padding: 5px 0 70px;
+}
+
+.list {
+	padding-bottom: 0px;
+	margin-left: 7px;
+}
+
+.list span {
+	display: inline-block;
+	padding-right: 55px;
+    padding-top: 15px;
+	font-size: 15px;
+	font-weight: 200;
+	line-height: 2;
+	color: #000;
+	background: url(../images/icon/australia.png) no-repeat right center;
+}
+
+.casino_list {
+	position: relative;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.casino_list table {
+	width: 100%;
+} 
+
+.casino_list table tbody tr {border-bottom: 1px none #f0f0f0;}
+.casino_list table tbody tr:first-child {border: none; border-color: #30415d;}
+.casino_list table tbody tr:nth-last-child(2) {border: none; border-color: #30415d;}
+.casino_list table tbody tr:nth-last-child(3) {border: none; border-color: #30415d;}
+.casino_list table tbody tr:nth-last-child(4) {border: none; border-color: #30415d;}
+.casino_list table tbody tr:nth-last-child(5) {border: none; border-color: #30415d;}
+.casino_list table tbody tr:nth-last-child(6) {border: none; border-color: #30415d;}
+.casino_list table tbody tr:nth-last-child(7) {border: none; border-color: #30415d;}
+.casino_list table tbody tr:nth-last-child(8) {border: none; border-color: #30415d;}
+.casino_list table tbody tr:nth-last-child(9) {border: none; border-color: #30415d;}
+.casino_list table tbody tr:last-child {border: none; border-color: #30415d;}
+
+
+
+.casino_list table thead td {
+	padding: 15px 5px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1;
+	color: #1f1f1f;
+	background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	text-align: center;
+	
+}
+
+.casino_list table tbody tr td:first-child {
+	width: 100px;
+	padding: 0;
+	text-align: left;
+}
+
+.casino_list table tbody tr td figure img {
+  max-width: 75px;
+  text-align: center;
+ }
+ 
+ .casino_list table tbody tr td figure {
+  text-align: center;
+ }
+ 
+ .casino_list table tbody tr td figure img.partnerlogos {
+  max-width: 200px;
+ }
+ 
+.casino_list table tbody tr td {
+	height: 110px;
+	padding: 0 5px;
+	background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	text-align: center;
+}
+
+.casino_list table tbody tr td span.num {
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1;
+	color: #000;
+	text-align: center;
+}
+
+.casino_list table tbody tr td span.address {
+	display: block;
+	max-width: 270px;
+	margin: 0 auto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.1;
+	color: #000;
+}
+
+.casino_list table tbody tr td .rating {
+	width: 115px;
+	margin: 0 auto;
+}
+
+.casino_list table tbody tr td .rating .rate {
+	margin: 10px 0;
+	border-spacing: 0;
+}
+
+.casino_list table tbody tr td .rating p,
+.casino_list table tbody tr td .rating p a {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+	color: #666;
+}
+
+.casino_list table tbody tr td span.score {
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto;
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 84px;
+	color: #000;
+	text-align: center;
+}
+
+
+.casino_list table tbody tr td p.score_text {
+	display: none;
+}
+
+.go_site_block {
+	padding-top: 40px;
+}
+
+a.go_site {
+	display: block;
+	width: 170px;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(to right, #DC1C13, #e62d26, #e95f5b, #ec0615);
+	border-radius: 60px;
+}
+
+a.go_site:hover {
+	background: linear-gradient(132deg, #ffc700 0%, #ff7a00 100%);
+}
+
+.casino_list table tbody tr td span.visit_name {
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+	color: #666;
+	text-decoration-line: underline;
+
+}
+
+.casino_list table tbody tr td span.visit_name a {
+	color: #4777a5;
+}
+
+.casino_list table tbody tr td span.visit_name a:hover {
+	text-decoration: underline;
+}
+
+.static_text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.3;
+	color: #1f1f1f;
+	text-align: justify;
+}
+/* Wrapper End */
+
+/* Footer Begin */
+#footer {
+	position: relative;
+	padding: 30px 0;
+}
+
+#footer p {
+	float: left;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+	color: #1f1f1f;
+}
+
+.footer_menu {
+	float: right;
+}
+
+.footer_menu a {
+	float: left;
+	margin-right: 40px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+	color: #1f1f1f;
+	transition: color 600ms ease;
+}
+
+.footer_menu a:last-child {
+	margin-right: 0;
+}
+
+.footer_menu a:hover {
+	color: #000;
+
+}
+
+.icons {
+	    text-align-last: justify;
+}
+
+
+
+.subscribe {
+	position: relative;
+	float: left;
+	margin-right: 85px;
+}
+
+.subscribe .subscribe_message {
+	display: none;
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	z-index: 10;
+	margin: 0;
+}
+
+.subscribe .subscribe_message span.success {color: green;}
+.subscribe .subscribe_message span.error {color: red;}
+
+.subscribe .subscribe_message span {
+	display: inline;
+	margin: 0;
+}
+
+.subscribe span {
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1;
+	color: #fff;
+}
+
+.subscribe input[type="text"] {
+	float: left;
+	display: block;
+	width: 195px;
+	height: 40px;
+	padding: 0 10px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1;
+	color: #000;
+	background: #fff;
+	border: 1px solid #dbdbdb;
+	border-right: 0;
+	border-radius: 5px 0 0 5px;
+}
+
+.subscribe input[type="text"]::-webkit-input-placeholder {color: #000;}
+.subscribe input[type="text"]::-moz-placeholder {color: #000;}
+
+.subscribe input[type="submit"] {
+	position: relative;
+	margin-left: -4px;
+	float: left;
+	display: block;
+	width: 90px;
+	height: 40px;
+	padding: 0 5px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1;
+	color: #fff;
+	background: #f8be13;
+	border: none;
+	border-radius: 5px;
+	transition: background 0.3s linear, border 400ms ease;
+}
+
+.subscribe input[type="submit"]:hover {
+	background: #deab12;
+}
+/* Footer End */
+
+/* Rankings work Begin */
+.rankings_work {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 99999;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: rgba(0,0,0,0.8);
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+
+.rankings_work.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+.rankings_work_inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 10;
+	transform: translate(-50%,-50%) scale(0.8,0.8);
+	width: 920px;
+	padding: 70px 90px;
+	background: linear-gradient(to right, #000B18, #00172D, #00264D, #02386E);
+	border-radius: 10px;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s ease;
+}
+
+.rankings_work_inner.show {
+	transform: translate(-50%,-50%) scale(1,1);
+	opacity: 1;
+	visibility: visible;
+}
+
+.rankings_work_inner h1 {
+	margin: 0 0 80px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+}
+
+.rankings_work_inner span.close_popup {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 20;
+	background: url(../images/icon/icon-close.svg) no-repeat center;
+	background-size: 100%;
+	cursor: pointer;
+	display: block;
+	width: 24px;
+	height: 24px;
+}
+
+.rankings_work_inner .box {
+	text-align: center;
+}
+
+.rankings_work_inner .box figure {
+	width: 100%;
+	max-width: 150px;
+	height: 150px;
+	line-height: 150px;
+	background: linear-gradient(to right, #B78628, #C69320, #DBA514, #EEB609, #FCC201);
+	border-radius: 5px;
+}
+
+.rankings_work_inner .box h2 {
+	margin: 17px 0 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.1;
+	color: #fff;
+}
+/* Rankings work End */
+
+#top,#middle,#bottom{
+    height: auto;
+    width: auto;
+     
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+ 

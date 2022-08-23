@@ -1,0 +1,25 @@
+/* Regular */
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat.eot?#iefix') format('embedded-opentype'),
+		 url('Montserrat.otf')  format('opentype'),
+		 url('Montserrat.woff') format('woff'),
+		 url('Montserrat.ttf')  format('truetype'),
+		 url('Montserrat.svg#Montserrat') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+
+/* ExtraBold */
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		 url('Montserrat-ExtraBold.otf')  format('opentype'),
+		 url('Montserrat-ExtraBold.woff') format('woff'),
+		 url('Montserrat-ExtraBold.ttf')  format('truetype'),
+		 url('Montserrat-ExtraBold.svg#Montserrat-ExtraBold') format('svg');
+	font-weight: 800;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}

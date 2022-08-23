@@ -1,0 +1,91 @@
+@media only screen and (max-width: 991px) {
+	.rankings_work_inner {width: 100%; height: 100%;padding: 30px; overflow-y: auto; border-radius: 0;}
+	.rankings_work_inner h1,.rankings_work_inner .box {margin-bottom: 20px;}
+	.rankings_work_inner .box h2 {font-size: 14px;}
+	.rankings_work_inner .box figure {width: 100px; height: 100px; line-height: 100px; margin: 0 auto;}
+	.rankings_work_inner .box figure img {max-width: 65px;}
+	
+	.logo {width: 200px;}
+	.btn_menu {display: block;}
+	.menu {display: none;position: absolute; top: 100%; z-index: 500; right: 0; width: 40%; padding: 0; background: #1f1f1f; border-top: 1px solid rgba(255,255,255,0.1);}
+	.menu a {width: 100%; margin: 0; padding: 20px 10px; font-size: 16px; line-height: 1; text-align: center; background-color: #254c86e0;}
+	
+	
+	.footer_menu {float: none;width: 100%; padding: 0; text-align: center;}
+	.footer_menu a {float: none; display: inline-block; margin: 0 24px 5px;}
+	#footer {min-height: auto; padding: 20px 0;}
+	#footer .pull-right {width: 100%;}
+	#footer p {width: 100%; text-align: center; line-height: 1; margin-bottom: 10px;}
+	.subscribe {float: none; width: 285px; margin: 0 auto 15px;}
+	.subscribe input[type="text"] {width: 190px; height: 38px; font-size: 14px;}
+	.subscribe input[type="submit"] {min-width: 90px; height: 38px; font-size: 14px;}
+}
+	
+	
+@media only screen and (max-width: 767px) {
+	.h1-cintainrt{    position: absolute;text-shadow: 1px 1px 1px #000;}
+	.cover_block {height: auto; padding-top: 26px;}
+	.cover_block .vertical-center {position: relative; top: -8px; transform: translate(0);}
+	.cover_block h1 {font-size: 26px;}
+	.cover_block h3 {    margin-top: 5px; margin-bottom: 0px; font-size: 11px;}
+
+	.new_date {margin-top: 15px;}
+	.new_date span {font-size: 14px;}
+	.all_games {width: 130px; height: 36px; margin-top: 20px; font-size: 12px; line-height: 36px; border-radius: 18px;}
+	.trusted {margin: 15px;}
+	.trusted span {font-size: 10px; line-height: 22px; background-size: 16px; padding-left: 25px;}
+	.wrapper {padding: 0px 0;}
+	.static_text.mt80 {margin-top: 30px!important;}
+	
+	.casino_list table {border-spacing: 0;}
+	.casino_list table thead {display: none;}
+	.casino_list table tbody tr {position: relative; display: block; float: left; width: 100%; padding-bottom: 5px; margin-bottom: 11px; background: #f6f6f6; border: 0; border-radius: 20px; border: solid; border-color: #30415d;}
+	.casino_list table tbody tr td {float: left; width: auto; padding: 0 20px; display: block; height: auto; background: transparent; border-radius: 0!important;}
+	.casino_list table tbody tr td:last-child {width: 100%; min-height: auto; padding: 0; margin-top: -22px;}
+	.casino_list table tbody tr td:first-child,.casino_list table tbody tr td.first-col figure,.casino_list table tbody tr td span.visit_name,
+	.casino_list table tbody tr td span.num {display: block; margin-top: 7px; margin-bottom: 1px;}
+	.casino_list table tbody tr td figure {line-height: 110px;}
+	.casino_list table tbody tr td figure.choice {margin-left: 0px;}
+	.casino_list table tbody tr td.logos {width: 50%; margin-left: -5px;}
+	.casino_list table tbody tr td span.address {max-width: 100%; min-height: auto; text-align: center; padding-top: 7px; margin-bottom: 17px;}
+	.casino_list table tbody tr td a.go_site {right: 80px; bottom: -20px; width: 95%; margin-top: 1px; border-radius: 50px; font-size: 25px;}
+	.casino_list table tbody tr td span.score {margin-top: -35px; margin-left: -1px;}
+	.casino_list table tbody tr td.score {float: right;}
+	.casino_list table tbody tr td p.score_text {display: block; font-size: 14px; margin-top: -10px;}
+	.go_site_block a.go_site {width: 100%;}
+}
+
+
+img.bg {
+	text-align: center;
+}
+
+img.footer {
+    max-width: 70px;
+}
+
+.casino_list table tbody tr td figure {
+ 
+ }
+
+@media only screen and (max-width: 480px) {
+	.col-mob-12 {width: 100%;}
+	.col-mob-6 {width: 50%;}
+	.cover_block h1 {font-size: 18px;}
+	.menu {width: 70%;}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.casino_list table tbody tr td span.address {max-width: 200px;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.btn_menu {display: none!important;}
+	.logo {width: 200px;}
+	.menu a {margin-right: 16px; font-size: 15px;}
+}
+
+@media only screen and (min-width:1200px) {
+	.btn_menu {display: none!important;}
+}
