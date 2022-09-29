@@ -84,6 +84,10 @@ h1 {
 	clear: both;}
 }
 
+.container {
+	margin-left: 43px;
+}
+
 /*For Mobile*/
 @media (max-width: 767px){
 	.box1, .box2, .box3 {
